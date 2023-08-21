@@ -1,22 +1,20 @@
 <template>
-  <div class="bg-brand-navy-3">
-    <h1>Top Header</h1>
-    <main-navbar />
+  <div
+    class="flex items-center justify-between h-10vh bg-gradient-to-l from-brand-navy-3 to-brand-navy-2"
+  >
     <company-logo />
-
+    <main-navbar />
   </div>
 </template>
 <script>
 import MainNavbar from '@/components/topHeader/MainNavbar.vue'
-import CompanyLogo from './CompanyLogo.vue';
+import CompanyLogo from './CompanyLogo.vue'
 export default {
-  name: "TopHeader",
+  name: 'TopHeader',
   components: {
     MainNavbar,
     CompanyLogo
   }
 }
 </script>
-<style lang="">
-  
-</style>
+<style lang=""></style>

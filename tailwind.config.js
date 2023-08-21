@@ -9,6 +9,10 @@ export default {
         'brand-navy-1': '#0B3B59',
         'brand-navy-2': '#164F73',
         'brand-navy-3': '#88AABF'
+      },
+      height: {
+        '20vh': '20vh',
+        '10vh': '10vh'
       }
     }
   },
