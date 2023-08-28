@@ -1,5 +1,5 @@
 <template lang="">
-  <button class="py-1 px-3 text-sm capitaliz shadow outline-none border-none" :class="bgColor"  >
+  <button class="py-1 px-3 text-sm capitaliz shadow outline-none border-none" :class="bgColor">
     {{ title }}
   </button>
 </template>
@@ -7,8 +7,7 @@
 export default {
   props: {
     title: String,
-    bgColor: String,
+    bgColor: String
   }
 }
 </script>
-  

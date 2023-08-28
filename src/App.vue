@@ -1,15 +1,14 @@
-<script setup></script>
-
 <template>
-  <home-page />
+  <top-header />
+  <router-view />
 </template>
-
+<script setup></script>
 <script>
-import HomePage from '@/components/HomePage.vue'
+import TopHeader from '@/components/HeaderSection/TopHeader.vue'
 export default {
   name: 'App',
   components: {
-    HomePage
+    TopHeader
   }
 }
 </script>

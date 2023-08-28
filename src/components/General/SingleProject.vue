@@ -18,18 +18,16 @@
       class="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 translate-all duration-1000">
       <h1 class="text-3xl font-bold text-white">Beauty</h1>
       <p class="text-sm italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-1000">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi
-        eius dolorum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi eius dolorum.
       </p>
       <button-tool title="See More" bgColor="bg-white" />
     </div>
-
   </div>
 </template>
 <script>
-import ButtonTool from '../toolsComponents/ButtonTool.vue';
+import ButtonTool from '../toolsComponents/ButtonTool.vue'
 export default {
-  name: "SingleProject",
+  name: 'SingleProject',
   components: {
     ButtonTool
   }
