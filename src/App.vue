@@ -1,19 +1,15 @@
 <script setup></script>
 
 <template>
-  <header>
-    <top-header />
-  </header>
-
-  <main></main>
+  <home-page />
 </template>
 
 <script>
-import TopHeader from './components/topHeader/TopHeader.vue'
+import HomePage from '@/components/HomePage.vue'
 export default {
   name: 'App',
   components: {
-    TopHeader
+    HomePage
   }
 }
 </script>
